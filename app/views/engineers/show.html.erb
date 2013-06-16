@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @engineer.name %>
+</p>
+
+<p>
+  <b>Team:</b>
+  <%= @engineer.team %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @engineer.location %>
+</p>
+
+<p>
+  <b>About:</b>
+  <%= @engineer.about %>
+</p>
+
+
+<%= link_to 'Edit', edit_engineer_path(@engineer) %> |
+<%= link_to 'Back', engineers_path %>

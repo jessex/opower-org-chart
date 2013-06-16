@@ -1,0 +1,3 @@
+class Engineer < ActiveRecord::Base
+  attr_accessible :about, :location, :name, :team
+end
