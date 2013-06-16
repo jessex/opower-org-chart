@@ -75,12 +75,19 @@
    ]
   },
   {
-   "name": "Joshua Essex",
+   "name": "The Right Honourable Dr. Joshua Essex, PhD, LLC, Esq.",
    "children": [
     {"name": "Ponies!", "size": 8833},
     {"name": "Ponies!", "size": 1732},
     {"name": "Ponies!", "size": 3623},
-    {"name": "Ponies!", "size": 10066}
+    {"name": "Ponies!", "size": 10066},
+    {"name": "Fennec foxes!", 
+     "children": [
+      {"name": "Sugar gliders!", "size": 12042012},
+      {"name": "Siberian tigers!", "size": 2072013},
+      {"name": "Manta rays!", "size": 6042013}
+     ]
+    }
    ]
   },
   {
