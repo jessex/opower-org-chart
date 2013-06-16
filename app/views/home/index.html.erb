@@ -29,9 +29,10 @@ path.link {
   <body>
     <div id="body">
       <div id="header" align="right">
-	<%= image_tag "logo.png"%>
+	<%= image_tag "logo.png"%></br></br>
+	<%= link_to "Create/Edit/Destroy", engineers_path, :class => "h1"%>
       </div>
-      <div id="footer">
+      <div id="footer" align="right">
 	Opower
 	<%= link_to "Engineering", engineers_path %>
 	Org Chart
