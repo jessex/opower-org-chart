@@ -2,11 +2,8 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <!--<link type="text/css" rel="stylesheet" href="style.css"/>-->
     <%= stylesheet_link_tag "style.css" %>
-    <!--<script type="text/javascript" src="d3/d3.js"></script>-->
     <%= javascript_include_tag "d3.js" %>
-    <!--<script type="text/javascript" src="d3/d3.layout.js"></script>-->
     <%= javascript_include_tag "d3.layout.js" %>
     <style type="text/css">
      
@@ -31,6 +28,9 @@ path.link {
   </head>
   <body>
     <div id="body">
+      <div id="header" align="right">
+	<%= image_tag "logo.png"%>
+      </div>
       <div id="footer">
 	Opower
 	<%= link_to "Engineering", engineers_path %>
